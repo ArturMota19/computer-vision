@@ -12,7 +12,7 @@ if img is None:
 
 # histograma
 hist = cv2.calcHist([img], [0], None, [256], [0, 256])
-
+#[[1.0000e+00]... array de arrays
 # nivel de cinza mais frequente
 most_freq_gray = np.argmax(hist)
 
